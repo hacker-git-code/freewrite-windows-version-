@@ -46,15 +46,15 @@ do this-->
 
 If you wanna make a standalone executable .exe file use this code 
 
-```dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true 
+``` dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true 
 
 ```
 
-this would make a exe in the ```bin\Release\net8.0-windows\win-x64\publish\ folder```
+this would make a exe in the ``` bin\Release\net8.0-windows\win-x64\publish\ folder ```
 
 
-```cd "E:\New folder (2)\Free write\freewrite-windows\FreewriteWindows\bin\Release\net8.0-windows\win-x64\publish\"
-.\Freewrite.exe```
-
+``` cd "E:\New folder (2)\Free write\freewrite-windows\FreewriteWindows\bin\Release\net8.0-windows\win-x64\publish\"
+.\Freewrite.exe 
+```
 
 exe file is ready to use
