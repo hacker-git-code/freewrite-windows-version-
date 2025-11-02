@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Freewrite</AssemblyName>
+    <Product>Freewrite for Windows</Product>
+    <Version>1.0.0</Version>
+    <Authors>Freewrite</Authors>
+    <Description>A simple, open-source Windows app to freewrite</Description>
+    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="E:\New folder (2)\Free write\freewrite-windows\FreewriteWindows\Assets\icon.ico" />
+  </ItemGroup>
+
+</Project>
