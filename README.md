@@ -34,7 +34,7 @@ This is the Windows version of the [Freewrite macOS app](https://www.freewrite.i
    ```powershell
    dotnet run
    ```
-``this would run the app directly from the source code``
+`` this would run the app directly from the source code ``
 
 
 
