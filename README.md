@@ -64,6 +64,8 @@ exe file is ready to use
 if need the desktop short go to the exe file made
 ```Open File Explorer
 Navigate to: (drivename):\foldername\freewrite-windows\FreewriteWindows\bin\Release\net8.0-windows\win-x64\publish\
+
 Right-click Freewrite.exe
+
 Select "Send to" → "Desktop (create shortcut)"
 ```
