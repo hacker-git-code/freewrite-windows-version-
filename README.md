@@ -34,16 +34,27 @@ This is the Windows version of the [Freewrite macOS app](https://www.freewrite.i
    ```powershell
    dotnet run
    ```
-
 ``this would run the app directly from the source code``
 
 
-if you wanna make a standalone executable .exe file use this code 
+
+
+
+wanna need app like feel....
+
+do this-->
+
+If you wanna make a standalone executable .exe file use this code 
 
 ```dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true 
 
 ```
 
 this would make a exe in the ```bin\Release\net8.0-windows\win-x64\publish\ folder```
+
+
+```cd "E:\New folder (2)\Free write\freewrite-windows\FreewriteWindows\bin\Release\net8.0-windows\win-x64\publish\"
+.\Freewrite.exe```
+
 
 exe file is ready to use
